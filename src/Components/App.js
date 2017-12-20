@@ -21,8 +21,9 @@ class App extends Component {
 
     slide = (page) => {
         let slide = document.querySelector('.slide');
-        slide.style.transform = 'translateX(-2700px)';
         this.setState({page});
+        slide.style.transform = 'translateX(-100%)';
+
 
     }
 

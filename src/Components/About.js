@@ -7,7 +7,11 @@ class About extends Component {
 
     render() {
         return (
-            <h1>A PROPOS</h1>
+            <div>
+                <h1>A propos</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam blanditiis facilis impedit nam natus nesciunt, nisi, odit omnis placeat quae quam sed tempore voluptatibus? Aliquam eius perspiciatis quidem tempore temporibus.</p>
+            </div>
+
         );
     }
 }

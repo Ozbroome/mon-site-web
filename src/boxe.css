@@ -16,7 +16,6 @@
     color: white;
     text-align: center;
     height: 500px;
-    color: white;
     display: block;
     text-decoration: none;
     width: 33.33%;
@@ -70,4 +69,20 @@ margin: auto;
     -ms-transform: scale(1.2);
     -o-transform: scale(1.2);
     transform: scale(1.2);
+}
+@media (max-width: 600px) {
+    .App-header{
+        float:none;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        min-height: auto;
+    }
+    .boxes{
+        width: 100%;
+        flex-direction: column;
+    }
+    .boxe{
+        width: 100%;
+    }
 }
